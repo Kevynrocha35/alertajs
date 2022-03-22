@@ -1,0 +1,36 @@
+/* ||CABEÇALHO|| */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 110px;
+}
+.header > h2 {
+    width: 100%;
+    height: 36px;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: bold;
+    color: #333333;
+    line-height: 1.1;
+}
+.header > span {
+    width: 100%;
+    height: 36px;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #333333;
+    line-height: 1.1;
+}
+#hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
