@@ -1,0 +1,13 @@
+.tribute-info {
+
+}
+.picture {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 900px;
+}
+.picture > img {
+    width: 100%;
+    height: 100%;
+}
