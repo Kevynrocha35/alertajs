@@ -1,6 +1,5 @@
 /* ||SEÇÃO HOMENAGEM-INFO|| */
 #tribute-info {
-    display: grid;
 }
 
 /* imagem */
@@ -30,9 +29,6 @@
 
 /* conteúdo descritivo */
 #descriptive-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 100%;
     height: auto;
     padding: 15px 5px 5px 5px;
