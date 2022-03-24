@@ -1,17 +1,43 @@
-.tribute-info {
+#tribute-info {
     display: grid;
 }
-.picture {
+
+/* imagem */
+#img-div {
     width: 100%;
-    max-width: 600px;
     height: auto;
-    max-height: 900px;
     padding: 4px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
-.picture > img {
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#img-caption  {
     width: 100%;
-    height: 100%;
+    height: 10%;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 200;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* conteúdo de texto principal */
+.main-content {
+    width: 100%;
+    height: auto;
+    padding: 15px 5px 5px 5px;
+}
+.main-content > p {
+    font-family: 'Caudex', serif;
+    text-align: left;
+    color: #333;
+    line-height: 1.4;
+    font-size: 2.1rem;
+    font-weight: 200;
 }
