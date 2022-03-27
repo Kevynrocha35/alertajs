@@ -2,7 +2,7 @@
 <h6 align="center"><a href="#">Link para acessar este website</a> #preview</h6>
 
 <div>
-  <img src="https://user-images.githubusercontent.com/71854074/159138405-4d8af2a5-9934-44c5-bce5-ca871571efa5.jpg"/>
+  <img src=""/>
 </div>
 
 ## Tecnologias implementadas no projeto
