@@ -1,5 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) and (min-width: 483px) {
+/* @media only screen and (max-width: 600px) {} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 483px) and (max-width: 768px) {
 
     /* ||CABEÇALHO|| */
     #title {
@@ -21,10 +24,10 @@
         width: 100%;
     }
 }
+ 
 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
 
     /* ||CABEÇALHO|| */
     #title {
@@ -34,28 +37,70 @@
         font-size: 2.7rem;
     }
 
-
     /* ||SEÇÃO HOMENAGEM-INFO|| */
+    #tribute-info {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
     /* imagem */
     #img-div {
-        width: 100%;
-        max-width: 100%;
+        width: 50%;
+        max-width: 50%;
+        height: auto;
     }
-        #image {
+    #image {
         display: block;
         width: 100%;
+        max-height: 100%;
     }
-}
- 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
+    /* introdução */
+    #subject {
+        width: 48%;
+        height: auto;
+    }
 }
  
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {} */
+@media only screen and (min-width: 992px) {
+
+    /* ||SEÇÃO HOMENAGEM-INFO|| */
+    #tribute-info {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+    
+    /* imagem */
+    #img-div {
+        width: 90%;
+        max-width: 90%;
+        height: auto;
+        grid-row: 1 / 2;
+    }
+    #image {
+        width: 100%;
+        max-height: 100%;
+    }
+
+    /* introdução */
+    #subject {
+        height: max-content;
+        padding: 0px 5px;
+        margin: 0;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #list-div {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+}
  
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

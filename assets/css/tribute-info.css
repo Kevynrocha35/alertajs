@@ -1,6 +1,8 @@
 /* ||SEÇÃO HOMENAGEM-INFO|| */
-/* #tribute-info {
-} */
+#tribute-info {
+    width: 100%;
+    height: auto;
+}
 
 /* imagem */
 #img-div {
@@ -28,23 +30,22 @@
     color: #333;
 }
 
-/* conteúdo descritivo */
-#descriptive-content {
-    width: 100%;
-    height: auto;
-    padding: 15px 5px 5px 5px;
-}
 /* introdução */
-#descriptive-content > p {
+#subject {
     font-family: 'Caudex', serif;
     text-align: left;
     color: #333;
     line-height: 1.4;
     font-size: 2.1rem;
     font-weight: 200;
+    margin: 10px 0px;
 }
-/* subtitulo de lista não ordenada */
-#descriptive-content > h4 {
+
+/* lista não ordenada */
+#list-div {
+    padding-left: 35px;
+}
+#title-ul {
     font-family: 'Caudex', serif;
     text-align: left;
     color: #333;
@@ -52,11 +53,8 @@
     font-size: 1.8rem;
     font-weight: 200;
     margin: 15px 0px 5px 0px;
-}
-
-/* lista não ordenada */
-#list-div {
-    padding-left: 35px;
+    position: relative;
+    right: 35px;
 }
 #list-div > li {
     font-family: 'Caudex', serif;
@@ -68,7 +66,7 @@
 }
 
 /* citação */
-#descriptive-content > blockquote-reverse > em {
+#tribute-info > blockquote-reverse > em {
     font-family: 'Caudex', serif;
     color: #333;
     background: rgba(255, 255, 255, 0.6);
