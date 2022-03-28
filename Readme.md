@@ -9,7 +9,7 @@
 
 <ul> 
   <li>HTML</li>
-  <li>CSS</li>
+  <li>CSS (Flex/Grid)</li>
   <li>Responsividade</li>
   <li>Acessibilidade</li>
 </ul>
