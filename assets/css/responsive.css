@@ -56,7 +56,7 @@
         max-height: 100%;
     }
 
-    /* introdução */
+    /* p-introdução */
     #subject {
         width: 48%;
         height: auto;
@@ -67,20 +67,29 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+    /* ||CABEÇALHO|| */
+    #title {
+        font-size: 4rem;
+    }
+    #header > span {
+        font-size: 3rem;
+    }
+
     /* ||SEÇÃO HOMENAGEM-INFO|| */
     #tribute-info {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        /* grid-template-rows: 1000px; */
-        grid-template-areas: "image content";
+        column-gap: 10px;
+        grid-template-rows: 1fr max-content max-content;
+        grid-template-areas: "image content" "content-list content-list" "content-blockquote content-blockquote";
         align-items: flex-start;
     }
  
     /* imagem */
     #img-div {
-        width: 70%;
-        max-width: 70%;
-        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        height: max-content;
         max-height: 100%;
     }
     #image {
@@ -93,19 +102,40 @@
         height: max-content;
         padding: 0px 5px;
         margin: 0;
+        font-size: 2.3rem;
     }
 
     /* lista não ordenada */
     #list-div {
-        
+        grid-area: content-list;
     }
 
     /* citação */
     #blockquote {
-        
+        grid-area: content-blockquote;
+        margin-top: 20px;
     }
 }
  
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {} */
+@media only screen and (min-width: 1200px) {
+
+        /* ||SEÇÃO HOMENAGEM-INFO|| */
+
+    /* p-introdução */
+    #subject {
+        height: max-content;
+        padding: 0px 5px;
+        margin: 0;
+        font-size: 2.6rem;
+    }
+
+    /* lista não ordenada */
+    #title-ul {
+        font-size: 2rem;
+    }
+    #list-div > li {
+        font-size: 1.6rem;
+    }
+}
