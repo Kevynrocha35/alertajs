@@ -1,0 +1,23 @@
+#tribute-end__title > h2 {
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#tribute-end__title > h2 > a {
+    color: #333;
+    line-height: 1.1;
+}
+
+/* iframe - homenagem do google */
+#tribute-end__embed-item {
+    width: 100%;
+    height: max-content;
+    margin-top: 15px;
+}
+#tribute-end__embed-item > iframe {
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+}
