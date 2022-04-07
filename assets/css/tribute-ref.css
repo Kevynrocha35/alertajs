@@ -1,0 +1,53 @@
+#tribute-ref__title > h2 {
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#tribute-ref__title > h2 > a {
+    color: #333;
+    line-height: 1.1;
+}
+
+/* iframe - homenagem do google */
+#tribute-ref__embed-item {
+    width: 100%;
+    height: max-content;
+    margin-top: 15px;
+}
+#tribute-ref__embed-item > iframe {
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+}
+
+/* referências */
+#tribute-ref__more-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1px;
+}
+#tribute-ref__more-info > h2 {
+    width: 100%;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.1;
+    margin: 5px 0px;
+}
+#tribute-ref__more-info > span {
+    margin: 5px 0px;
+}
+#tribute-ref__more-info > span > a {
+    width: 100%;
+    font-family: 'Caudex', serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.1;
+}
